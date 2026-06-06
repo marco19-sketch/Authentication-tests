@@ -1,0 +1,14 @@
+desktop.ini
+Thumbs.db
+node_modules/
+.vite/
+dist/
+build/
+.vscode/
+
+desktop.ini
+node_modules/
+.vscode/
+.vite/
+__pycache__/
+*.pyc
