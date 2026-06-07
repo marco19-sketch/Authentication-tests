@@ -1,0 +1,197 @@
+PS C:\Git-repos\AUTHENTICATION\first-attemp-very-basic\auth-practice> Get-ChildItem -Recurse -Depth 1 | Where-Object {$_.Name -notin 'node_modules', '.git'}
+
+
+    Directory: C:\Git-repos\AUTHENTICATION\first-attemp-very-basic\auth-practice
+
+
+Mode                 LastWriteTime         Length Name                                                                   
+----                 -------------         ------ ----                                                                   
+d-r---        28/09/2025     20:59                public                                                                 
+d-r---        28/09/2025     21:19                src                                                                    
+-a----        04/08/2025     19:17             60 .firebaserc                                                            
+-a----        06/06/2026     18:20            473 .gitignore                                                             
+-a----        04/08/2025     18:00            763 eslint.config.js                                                       
+-a----        04/08/2025     19:17            136 firebase.json                                                          
+-a----        04/08/2025     18:00            361 index.html                                                             
+-a----        04/08/2025     18:03         135246 package-lock.json                                                      
+-a----        04/08/2025     18:03            636 package.json                                                           
+-a----        04/08/2025     18:00            856 README.md                                                              
+-a----        04/08/2025     18:00            161 vite.config.js                                                         
+
+
+    Directory: C:\Git-repos\AUTHENTICATION\first-attemp-very-basic\auth-practice\node_modules
+
+
+Mode                 LastWriteTime         Length Name                                                                   
+----                 -------------         ------ ----                                                                   
+d-r---        28/09/2025     21:19                .bin                                                                   
+d-r---        28/09/2025     21:19                .vite                                                                  
+d-r---        04/08/2025     19:41                .vite-temp                                                             
+d-r---        28/09/2025     20:59                @ampproject                                                            
+d-r---        28/09/2025     21:00                @babel                                                                 
+d-r---        28/09/2025     21:05                @esbuild                                                               
+d-r---        28/09/2025     21:01                @eslint                                                                
+d-r---        28/09/2025     21:01                @eslint-community                                                      
+d-r---        28/09/2025     21:10                @firebase                                                              
+d-r---        28/09/2025     21:12                @grpc                                                                  
+d-r---        28/09/2025     21:01                @humanfs                                                               
+d-r---        28/09/2025     21:01                @humanwhocodes                                                         
+d-r---        28/09/2025     21:01                @jridgewell                                                            
+d-r---        28/09/2025     21:13                @protobufjs                                                            
+d-r---        28/09/2025     20:59                @rolldown                                                              
+d-r---        28/09/2025     21:05                @rollup                                                                
+d-r---        28/09/2025     21:05                @types                                                                 
+d-r---        28/09/2025     20:59                @vitejs                                                                
+d-r---        28/09/2025     21:02                acorn                                                                  
+d-r---        28/09/2025     21:01                acorn-jsx                                                              
+d-r---        28/09/2025     21:03                ajv                                                                    
+d-r---        28/09/2025     21:13                ansi-regex                                                             
+d-r---        28/09/2025     21:01                ansi-styles                                                            
+d-r---        28/09/2025     21:02                argparse                                                               
+d-r---        28/09/2025     21:01                balanced-match                                                         
+d-r---        28/09/2025     21:01                brace-expansion                                                        
+d-r---        28/09/2025     21:02                browserslist                                                           
+d-r---        28/09/2025     21:01                callsites                                                              
+d-r---        28/09/2025     21:05                caniuse-lite                                                           
+d-r---        28/09/2025     21:01                chalk                                                                  
+d-r---        28/09/2025     21:13                cliui                                                                  
+d-r---        28/09/2025     21:01                color-convert                                                          
+d-r---        28/09/2025     21:01                color-name                                                             
+d-r---        28/09/2025     21:01                concat-map                                                             
+d-r---        28/09/2025     21:01                convert-source-map                                                     
+d-r---        28/09/2025     21:02                cross-spawn                                                            
+d-r---        28/09/2025     21:02                csstype                                                                
+d-r---        28/09/2025     21:01                debug                                                                  
+d-r---        28/09/2025     21:02                deep-is                                                                
+d-r---        28/09/2025     21:02                electron-to-chromium                                                   
+d-r---        28/09/2025     21:13                emoji-regex                                                            
+d-r---        28/09/2025     21:01                esbuild                                                                
+d-r---        28/09/2025     21:02                escalade                                                               
+d-r---        28/09/2025     21:01                escape-string-regexp                                                   
+d-r---        28/09/2025     21:03                eslint                                                                 
+d-r---        28/09/2025     21:02                eslint-plugin-react-hooks                                              
+d-r---        28/09/2025     21:01                eslint-plugin-react-refresh                                            
+d-r---        28/09/2025     21:02                eslint-scope                                                           
+d-r---        28/09/2025     21:01                eslint-visitor-keys                                                    
+d-r---        28/09/2025     21:02                espree                                                                 
+d-r---        28/09/2025     21:02                esquery                                                                
+d-r---        28/09/2025     21:01                esrecurse                                                              
+d-r---        28/09/2025     21:01                estraverse                                                             
+d-r---        28/09/2025     21:01                esutils                                                                
+d-r---        28/09/2025     21:02                fast-deep-equal                                                        
+d-r---        28/09/2025     21:02                fast-json-stable-stringify                                             
+d-r---        28/09/2025     21:01                fast-levenshtein                                                       
+d-r---        28/09/2025     21:13                faye-websocket                                                         
+d-r---        28/09/2025     21:02                fdir                                                                   
+d-r---        28/09/2025     21:01                file-entry-cache                                                       
+d-r---        28/09/2025     21:01                find-up                                                                
+d-r---        28/09/2025     21:17                firebase                                                               
+d-r---        28/09/2025     21:01                flat-cache                                                             
+d-r---        28/09/2025     21:02                flatted                                                                
+d-r---        28/09/2025     21:01                gensync                                                                
+d-r---        28/09/2025     21:13                get-caller-file                                                        
+d-r---        28/09/2025     21:01                glob-parent                                                            
+d-r---        28/09/2025     21:01                globals                                                                
+d-r---        28/09/2025     21:01                has-flag                                                               
+d-r---        28/09/2025     21:13                http-parser-js                                                         
+d-r---        28/09/2025     21:13                idb                                                                    
+d-r---        28/09/2025     21:01                ignore                                                                 
+d-r---        28/09/2025     21:01                import-fresh                                                           
+d-r---        28/09/2025     21:01                imurmurhash                                                            
+d-r---        28/09/2025     21:01                is-extglob                                                             
+d-r---        28/09/2025     21:13                is-fullwidth-code-point                                                
+d-r---        28/09/2025     21:01                is-glob                                                                
+d-r---        28/09/2025     21:01                isexe                                                                  
+d-r---        28/09/2025     21:01                js-tokens                                                              
+d-r---        28/09/2025     21:02                js-yaml                                                                
+d-r---        28/09/2025     21:01                jsesc                                                                  
+d-r---        28/09/2025     21:01                json-buffer                                                            
+d-r---        28/09/2025     21:01                json-schema-traverse                                                   
+d-r---        28/09/2025     21:02                json-stable-stringify-without-jsonify                                  
+d-r---        28/09/2025     21:02                json5                                                                  
+d-r---        28/09/2025     21:01                keyv                                                                   
+d-r---        28/09/2025     21:01                levn                                                                   
+d-r---        28/09/2025     21:01                locate-path                                                            
+d-r---        28/09/2025     21:13                lodash.camelcase                                                       
+d-r---        28/09/2025     21:01                lodash.merge                                                           
+d-r---        28/09/2025     21:13                long                                                                   
+d-r---        28/09/2025     21:01                lru-cache                                                              
+d-r---        28/09/2025     21:01                minimatch                                                              
+d-r---        28/09/2025     21:01                ms                                                                     
+d-r---        28/09/2025     21:02                nanoid                                                                 
+d-r---        28/09/2025     21:01                natural-compare                                                        
+d-r---        28/09/2025     21:01                node-releases                                                          
+d-r---        28/09/2025     21:01                optionator                                                             
+d-r---        28/09/2025     21:01                p-limit                                                                
+d-r---        28/09/2025     21:01                p-locate                                                               
+d-r---        28/09/2025     21:01                parent-module                                                          
+d-r---        28/09/2025     21:01                path-exists                                                            
+d-r---        28/09/2025     21:01                path-key                                                               
+d-r---        28/09/2025     21:01                picocolors                                                             
+d-r---        28/09/2025     21:02                picomatch                                                              
+d-r---        28/09/2025     21:02                postcss                                                                
+d-r---        28/09/2025     21:02                prelude-ls                                                             
+d-r---        28/09/2025     21:14                protobufjs                                                             
+d-r---        28/09/2025     21:01                punycode                                                               
+d-r---        28/09/2025     21:02                react                                                                  
+d-r---        28/09/2025     21:03                react-dom                                                              
+d-r---        28/09/2025     21:02                react-refresh                                                          
+d-r---        28/09/2025     21:13                require-directory                                                      
+d-r---        28/09/2025     21:01                resolve-from                                                           
+d-r---        28/09/2025     21:02                rollup                                                                 
+d-r---        28/09/2025     21:13                safe-buffer                                                            
+d-r---        28/09/2025     21:02                scheduler                                                              
+d-r---        28/09/2025     21:01                semver                                                                 
+d-r---        28/09/2025     21:01                shebang-command                                                        
+d-r---        28/09/2025     21:01                shebang-regex                                                          
+d-r---        28/09/2025     21:02                source-map-js                                                          
+d-r---        28/09/2025     21:13                string-width                                                           
+d-r---        28/09/2025     21:13                strip-ansi                                                             
+d-r---        28/09/2025     21:01                strip-json-comments                                                    
+d-r---        28/09/2025     21:01                supports-color                                                         
+d-r---        28/09/2025     21:01                tinyglobby                                                             
+d-r---        28/09/2025     21:13                tslib                                                                  
+d-r---        28/09/2025     21:01                type-check                                                             
+d-r---        28/09/2025     21:13                undici-types                                                           
+d-r---        28/09/2025     21:01                update-browserslist-db                                                 
+d-r---        28/09/2025     21:02                uri-js                                                                 
+d-r---        28/09/2025     21:02                vite                                                                   
+d-r---        28/09/2025     21:14                web-vitals                                                             
+d-r---        28/09/2025     21:13                websocket-driver                                                       
+d-r---        28/09/2025     21:13                websocket-extensions                                                   
+d-r---        28/09/2025     21:01                which                                                                  
+d-r---        28/09/2025     21:01                word-wrap                                                              
+d-r---        28/09/2025     21:13                wrap-ansi                                                              
+d-r---        28/09/2025     21:13                y18n                                                                   
+d-r---        28/09/2025     21:01                yallist                                                                
+d-r---        28/09/2025     21:13                yargs                                                                  
+d-r---        28/09/2025     21:13                yargs-parser                                                           
+d-r---        28/09/2025     21:01                yocto-queue                                                            
+-a----        04/08/2025     18:03         135944 .package-lock.json                                                     
+
+
+    Directory: C:\Git-repos\AUTHENTICATION\first-attemp-very-basic\auth-practice\public
+
+
+Mode                 LastWriteTime         Length Name                                                                   
+----                 -------------         ------ ----                                                                   
+-a----        04/08/2025     18:00           1497 vite.svg                                                               
+
+
+    Directory: C:\Git-repos\AUTHENTICATION\first-attemp-very-basic\auth-practice\src
+
+
+Mode                 LastWriteTime         Length Name                                                                   
+----                 -------------         ------ ----                                                                   
+d-r---        28/09/2025     21:19                assets                                                                 
+-a----        04/08/2025     18:24              0 App.css                                                                
+-a----        04/08/2025     19:01            629 App.jsx                                                                
+-a----        04/08/2025     18:34            117 AuthContext.jsx                                                        
+-a----        04/08/2025     18:37            662 AuthProvider.jsx                                                       
+-a----        04/08/2025     18:23            408 Dashboard.jsx                                                          
+-a----        04/08/2025     21:14            762 firebase.js                                                            
+-a----        04/08/2025     18:00           1154 index.css                                                              
+-a----        04/08/2025     18:15           1082 LoginPage.jsx                                                          
+-a----        04/08/2025     18:35            317 main.jsx                                                               
+-a----        04/08/2025     18:51           1204 RegisterPage.jsx                                                       
+-a----        04/08/2025     18:21            171 useAuth.js                                                             
